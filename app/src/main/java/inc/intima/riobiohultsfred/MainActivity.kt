@@ -2,7 +2,7 @@ package inc.intima.riobiohultsfred
 
 import android.graphics.Bitmap
 import android.os.Build
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.webkit.WebSettings
@@ -54,9 +54,7 @@ class MainActivity : AppCompatActivity() {
         settings.useWideViewPort = true
         settings.loadWithOverviewMode = true
         settings.javaScriptCanOpenWindowsAutomatically = true
-{
-            settings.mediaPlaybackRequiresUserGesture = false
-        }
+
 
 
         // More optional settings, you can enable it by yourself
